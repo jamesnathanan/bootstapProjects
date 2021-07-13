@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+    <title>bootstrap test</title>
+    <style>
+        body {
+            background: #000;
+        }
+        /* small devices (phone) */
+        @media screen and (min-width: 576px) { 
+            body {
+                background: darkcyan;
+            }
+        }
+        /* medium devices (tablet) */
+        @media screen and (min-width: 768px)
+        {
+            body {
+                background: rebeccapurple;
+            }
+        }
+        /* desktop */
+        @media screen and (min-width: 992px)
+        {
+            body {
+                background: rosybrown;
+            }
+        }
+        /* extra large devices (large desktop) */
+        @media screen and (min-width: 1200px)
+        {
+            body {
+                background: seagreen;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 12 -->
+    <div class="container">
+        <div class="row">
+            <div class="col bg-danger">I'm simple column</div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-info">I'm fliud column</div>
+            <div class="col bg-warning">I'm a fluid</div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col bg-white">I'm simple column</div>
+            <div class="col bg-secondary">I'm a secondary</div>
+            <div class="col bg-primary">I'm a primary</div>
+        </div>
+    </div>
+    <br>
+    <!-- small will be 100% until pass medium breakpoint -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm bg-success">I'm a small col</div>
+            <div class="col-sm bg-info">I'm a small col</div>
+            <div class="col-sm bg-white">I'm a small col</div>
+        </div>
+    </div>
+    <br>
+    <!-- md will be 100% until pass large breakpoint -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md bg-danger">I'm a md col</div>
+            <div class="col-md bg-warning">I'm a md col</div>
+            <div class="col-md bg-success">I'm a md col</div>
+        </div>
+    </div>
+    <br>
+    <!-- grid system divide 12 by col-number -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 bg-danger">I'm a md col</div>
+            <div class="col-4 bg-warning">I'm a md col</div>
+            <div class="col-4 bg-success">I'm a md col</div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-7 bg-info">I'm a 7</div>
+            <div class="col-3 bg-danger">I'm a 3</div>
+            <div class="col-2 bg-white">I'm a 2</div>
+        </div>
+    </div>
+    <br>
+    <!-- if total sum is over 12 it will be wrap down to next line -->
+    <div class="container">
+        <div class="row">
+            <div class="col-7 bg-warning">I'm a 7</div>
+            <div class="col-3 bg-success">I'm a 3</div>
+            <div class="col-5 bg-danger">I'm a 5</div>
+        </div>
+    </div>
+    <br>
+    <!-- we can combine sm and number to specify breakpoint -->
+    <!-- after small breakpoint we will use 6/12 space -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 bg-primary">I'm sm-6</div>
+            <div class="col-sm-6 bg-secondary">I'm sm-6</div>
+            <div class="col-sm-6 bg-warning">I'm sm-6</div>
+            <div class="col-sm-6 bg-danger">I'm sm-6</div>
+        </div>
+    </div>
+    <br>
+    <!-- use 6/12 portion when pass medium breakpoint -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 bg-primary">I'm md-6</div>
+            <div class="col-md-6 bg-secondary">I'm md-6</div>
+            <div class="col-md-6 bg-warning">I'm md-6</div>
+            <div class="col-md-6 bg-danger">I'm md-6</div>
+        </div>
+    </div>
+    <br>
+    <!-- mix together cystom grid-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 col-md-10 col-lg-3 bg-primary">sm-7 md-10 lg-3</div>
+            <div class="col-sm-5 col-md-2 col-lg-9 bg-secondary">sm-5 md-2 lg-9</div>
+            <div class="col-sm-4 col-md-11 col-lg-5 bg-warning">sm-4 md-11 lg-5</div>
+            <div class="col-sm-8 col-md-1 col-lg-7 bg-danger">sm-8 md-1 lg-7</div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 bg-info">I'm sm-3</div>
+            <div class="col-sm-3 bg-warning">I'm sm-3</div>
+            <div class="col-sm-6 bg-success">I'm sm-6
+                <div class="row">
+                    <div class="col-6 bg-danger">I'm col-6 (nested)</div>
+                    <div class="col-6 bg-warning">I'm col-6 (nested)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
