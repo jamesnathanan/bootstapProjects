@@ -1,3 +1,15 @@
 body {
     font-family: 'Arvo', serif;
 }
+
+/* #skills {
+    padding: 200px 0 !important; 
+} */
+
+
+/* use !important to overwrite premade in bootstrap (py-5) */
+
+.height {
+    /* height: 1000px; */
+    min-height: 100vh;
+}
