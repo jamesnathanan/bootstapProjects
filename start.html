@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <!-- <script src="https://kit.fontawesome.com/2d7937158b.js" crossorigin="anonymous"></script> -->
+    <!-- Font awesome if you have download file -->
+    <script src="./js/all.js"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Start</title>
+    <style>
+        /* bootstrap4 btn outline fix */
+        .btn:focus {
+            box-shadow: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container bg-secondary">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-white">Standard Heading</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam similique sint ipsum at magnam
+                    hic repellat esse aliquam asperiores rerum?</p>
+                <button type="button" class="btn btn-primary m-2 p-2 ">primary button</button>
+                <button type="button" class="btn btn-danger m-3 p-3 ">danger button</button>
+            </div>
+        </div>
+    </div>
+    <!-- End of container -->
+
+    <div class="container-fluid bg-warning text-dark py-5">
+        <div class="row">
+            <div class="col">
+                <!-- display-1 is biggest , 4 is smallest  -->
+                <h1 class="display-1">Display-1</h1>
+                <h1 class="display-4">Display-4</h1>
+                <p class="text-success lead p-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
+                    recusandae
+                    quas
+                    aspernatur laborum, non voluptas similique vel debitis. Atque, hic.</p>
+                <button type="button" class="btn btn-dark text-danger mt-5">btn mt-5</button>
+                <button type="button" class="btn btn-success text-dark mb-4">btn mb-4</button>
+                <button type="button" class="btn btn-secondary text-white mx-4">btn mx-4</button>
+            </div>
+        </div>
+    </div>
+    <!-- End of container-fluid -->
+
+    <section class="bg-dark py-5" id="skills">
+        <div class="container">
+            <!-- we can use align-items with row becuz row is flexbox by auto -->
+            <div class="row text-center align-items-center height">
+                <div class="col">
+                    <h1 class="text-white">section example</h1>
+                    <p class="text-warning display-4">paragraph display</p>
+                    <p class="px-5 text-info text-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Cumque at facere
+                        nulla ipsam delectus maxime voluptatibus, nemo placeat nam impedit.</p>
+                    <p class="text-light text-right py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Ipsa
+                        magni dolorum amet quas adipisci sequi aspernatur suscipit dolor est? Similique!</p>
+                    <button type="button" class="btn btn-warning text-secondary">btn warning</button>
+                    <button type="button" class="btn btn-info text-dark">btn info</button>
+                    <button type="button" class="btn btn-light text-dark">btn light</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of First Section -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="row height align-items-center justify-content-center">
+                <!-- since we have 1 col so justify-content-center wont work, so we have to add width to col by add -9 (that mean width 9/12) -->
+                <div class="col-9">
+                    <h1 class="text-danger text-uppercase display-2">udemy</h1>
+                    <p class="text-muted lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae possimus beatae doloribus nemo vel sint ipsa mollitia numquam, et aliquid?</p>
+                    <a href="#" class="text-danger btn btn-secondary text-uppercase p-3 mt-3">explore</a>
+                    <a href="#" class="text-light btn btn-dark text-uppercase p-3 mt-3 mx-3">explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of second section -->
+    <section class="bg-primary py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col bg-danger text-center">
+                    <i class="fas fa-home fa-3x text-light"></i>
+                    <h3 class="text-dark">fa-home</h3>
+                </div>
+                <div class="col bg-info text-center">
+                    <i class="fas fa-home fa-3x text-light"></i>
+                    <h3 class="text-dark">fa-home</h3>
+                </div>
+                <div class="col bg-warning text-center">
+                    <i class="fas fa-home fa-3x text-light"></i>
+                    <h3 class="text-dark">fa-home</h3>
+                </div>
+                <div class="col bg-secondary text-center">
+                    <i class="fas fa-home fa-3x text-light"></i>
+                    <h3 class="text-light">fa-home</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of first Grid -->
+    <section class="bg-success py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8 text-center mb-3 bg-secondary">
+                    <i class="fas fa-star fa-3x"></i>
+                    <h3>star</h3>
+                </div>
+                <div class="col-4 text-center mb-3 bg-light">
+                    <i class="fas fa-star fa-3x"></i>
+                    <h3>star</h3>
+                </div>
+                <div class="col-3 text-center mb-3 bg-secondary">
+                    <i class="fas fa-star fa-3x"></i>
+                    <h3>star</h3>
+                </div>
+                <div class="col-9 text-center mb-3 bg-light">
+                    <i class="fas fa-star fa-3x"></i>
+                    <h3>star</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Second Grid -->
+    <section class="bg-light py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- single col -->
+                <div class="col-md-4 text-center">
+                    <!-- full width until pass small screen query then use 4/12 width -->
+                    <i class="fab fa-html5 fa-3x text-info"></i>
+                    <h2 class="text-dark text-capitalize py-3">learn html</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim soluta nostrum, placeat quia neque iusto ex numquam aliquam inventore!</p>
+                </div>
+                <!-- end of single col -->
+                <!-- single col -->
+                <div class="col-md-4 text-center">
+                    <i class="fab fa-css3 fa-3x text-info"></i>
+                    <h2 class="text-dark text-capitalize py-3">learn Css</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim soluta nostrum, placeat quia neque iusto ex numquam aliquam inventore!</p>
+                </div>
+                <!-- end of single col -->
+                <!-- single col -->
+                <div class="col-md-4 text-center">
+                    <i class="fab fa-js fa-3x text-info"></i>
+                    <h2 class="text-dark text-capitalize py-3">learn Js</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim soluta nostrum, placeat quia neque iusto ex numquam aliquam inventore!</p>
+                </div>
+                <!-- end of single col -->
+            </div>
+        </div>
+    </section>
+    <!-- last section -->
+    <section class="bg-warning py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- single col -->
+                <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                    <!-- full width until pass small screen query then use 4/12 width -->
+                    <i class="fab fa-html5 fa-3x text-white"></i>
+                    <h2 class="text-dark text-capitalize py-3">learn html</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim soluta nostrum, placeat quia neque iusto ex numquam aliquam inventore!</p>
+                </div>
+                <!-- end of single col -->
+                <!-- single col -->
+                <div class="col-sm-6 col-md-4 col-lg-6 text-center">
+                    <i class="fab fa-css3 fa-3x text-white"></i>
+                    <h2 class="text-dark text-capitalize py-3">learn Css</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim soluta nostrum, placeat quia neque iusto ex numquam aliquam inventore!</p>
+                </div>
+                <!-- end of single col -->
+                <!-- single col -->
+                <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                    <i class="fab fa-js fa-3x text-white"></i>
+                    <h2 class="text-dark text-capitalize py-3">learn Js</h2>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim soluta nostrum, placeat quia neque iusto ex numquam aliquam inventore!</p>
+                </div>
+                <!-- end of single col -->
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
