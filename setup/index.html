@@ -17,28 +17,84 @@
     <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>My first bootstrap site</title>
 
 
 </head>
 
 <body>
-    <header id="header" class="bg-dark">
+    <header id="header" class="bg-dark ">
         <div class="container">
             <div class="row height align-items-center">
                 <div class="col">
-                    <h1 class="text-danger text-uppercase font-weight-bold font-italic">
+                    <h1 class="text-success text-uppercase font-weight-bold font-italic">
                         <strong>My first bootstrap</strong>
-                        <small class="text-light">website</small>
+                        <small class="text-danger">website</small>
                     </h1>
-                    <p class="text-muted lead py-2 w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+                    <p class="text-light lead py-2 w-75">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
                         voluptate dignissimos numquam aperiam hic minima nihil, blanditiis facilis unde voluptatum.</p>
-                    <a href="#" class="btn btn-outline-primary btn-lg m-2  text-capitalize">press here</a>
+                    <a href="#skills" class="btn btn-outline-danger btn-lg m-2  text-capitalize">press here</a>
                     <a href="#" class="btn btn-outline-success btn-lg m-2  text-capitalize">press here</a>
                 </div>
             </div>
         </div>
     </header>
+    <!-- End of header -->
+    <!-- Skills section -->
+    <section id="skills" class="py-5 bg-white">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>skills</strong>
+                    </h1>
+                    <div class="bg-danger title-underline"></div>
+                    <p class="mt-2 text-capitalize text-muted">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row ">
+                <!-- single column -->
+                <div class="col-md-6 col-lg-3 my-4 text-center ">
+                    <i class="fab fa-node-js fa-5x text-success "></i>
+                    <h3 class="text-uppercase my-3">node.Js</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores
+                        vel, quod magni perspiciatis iure!</p>
+                    <a href="" class="btn btn-outline-success btn-block text-uppercase">btn-block</a>
+                </div>
+                <!-- end of single column -->
+                <!-- single column -->
+                <div class="col-md-6 col-lg-3 my-4 text-center ">
+                    <i class="fab fa-html5 fa-5x text-danger "></i>
+                    <h3 class="text-uppercase my-3">Html</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores
+                        vel, quod magni perspiciatis iure!</p>
+                    <a href="" class="btn btn-outline-danger w-75 text-uppercase">w-75</a>
+                </div>
+                <!-- end of single column -->
+                <!-- single column -->
+                <div class="col-md-6 col-lg-3 my-4 text-center ">
+                    <i class="fab fa-docker fa-5x text-primary "></i>
+                    <h3 class="text-uppercase my-3">Docker</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores
+                        vel, quod magni perspiciatis iure!</p>
+                    <a href="" class="btn btn-outline-primary w-50 text-uppercase">w-50</a>
+                </div>
+                <!-- end of single column -->
+                <!-- single column -->
+                <div class="col-md-6 col-lg-3 my-4 text-center ">
+                    <i class="fab fa-python fa-5x text-info "></i>
+                    <h3 class="text-uppercase my-3">python</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores
+                        vel, quod magni perspiciatis iure!</p>
+                    <a href="" class="btn btn-outline-info w-25 text-uppercase">25</a>
+                </div>
+                <!-- end of single column -->
+            </div>
+
+        </div>
+    </section>
 
 
     <!-- jQuery -->
