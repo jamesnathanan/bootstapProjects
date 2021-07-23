@@ -58,3 +58,31 @@ body {
 .bg-catawba {
   background-color: #653239 !important;
 }
+
+#filler {
+  /* background: url(../img/filler.jpg) center/cover no-repeat fixed; */
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url(../img/filler.jpg);
+  /* background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.99), transparent),
+    url(../img/filler.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* #filler p {
+  font-size: 1.5rem;
+  font-weight: 700;
+} */
+
+#header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url(../img/rodion-kutsaev-0VGG7cqTwCo-unsplash.jpg);
+  /* background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.99), transparent),
+    url(../img/rodion-kutsaev-0VGG7cqTwCo-unsplash.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
