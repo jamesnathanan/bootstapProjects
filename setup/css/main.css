@@ -1,5 +1,6 @@
 body {
-  font-family: "Arvo", serif;
+  /* font-family: "Arvo", serif; */
+  font-family: "Montserrat", sans-serif;
 }
 
 /* #skills {
@@ -28,10 +29,10 @@ body {
 }
 
 .about-picture {
-  background: url('../img/charles-adrien-fournier-g815W4LH4F8-unsplash.jpg');
+  background: url("../img/charles-adrien-fournier-g815W4LH4F8-unsplash.jpg");
   background-size: 130%; /*cover*/
   background-position: 100% 20%; /* center center*/
-  
+
   /* try to fix bigscreen image fail with media query
   background-size: 50%;
   background-position: left;  */
@@ -40,6 +41,20 @@ body {
   /* fixed attachment for parellax effect */
   background-attachment: fixed;
   overflow: hidden;
-  
 }
 
+.bg-bone {
+  background-color: #ccc7b9 !important;
+}
+.bg-nyanza {
+  background-color: #eaf9d9 !important;
+}
+.bg-dutch-white {
+  background-color: #e2d4ba !important;
+}
+.bg-blast {
+  background-color: #af7a6d !important;
+}
+.bg-catawba {
+  background-color: #653239 !important;
+}
