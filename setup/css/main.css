@@ -29,9 +29,11 @@ body {
 }
 
 .about-picture {
-  background: url("../img/charles-adrien-fournier-g815W4LH4F8-unsplash.jpg");
-  background-size: 130%; /*cover*/
-  background-position: 100% 20%; /* center center*/
+  background: url("../img/project6.jpg");
+  /* background-size: 130%; 
+  background-position: 100% 20%;  */
+  background-size: cover;
+  background-position: center;
 
   /* try to fix bigscreen image fail with media query
   background-size: 50%;
@@ -59,7 +61,8 @@ body {
   background-color: #653239 !important;
 }
 
-#filler {
+#filler,
+#progress {
   /* background: url(../img/filler.jpg) center/cover no-repeat fixed; */
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
     url(../img/filler.jpg);
